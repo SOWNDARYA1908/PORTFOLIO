@@ -1,0 +1,247 @@
+
+*{
+    margin:0px;
+}
+.navi:hover{
+    color: rgb(253, 253, 253);
+
+}
+.navi{
+    margin:0px;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    padding: 40px;
+    display:flex;
+    position: fixed;
+    width: 100%;
+    justify-content:flex-end;
+    font-size: large;
+    background-color: rgb(120, 214, 243);
+    z-index: 2;
+    text-decoration: none;
+}
+
+.main{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: xx-large;
+padding: 250px;
+margin-bottom: 50px;
+}
+#about{
+  margin-top: 200px;
+}
+.about-heading{
+  color: #25b79f;
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+}
+ img {
+    margin-left: 45%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+ .aboutdes {
+    font-size: 2rem;
+    color: #000000;
+    padding: 0 2.3rem;
+    text-align: center;
+  }
+  .liedu {
+    display: inline;
+    text-decoration:none;
+    margin:2%;
+    
+  }
+  .eduborder{
+  margin: 100px;
+  border:3px solid black;
+  border-radius:10px;
+  height: 300px;
+  display: flex;
+  margin-left: 35%;
+          justify-self: flex-end;
+          align-self: center;
+          font-size: large;
+          float:right;
+          background-color: aquamarine;
+          box-shadow: 10px 10px gray;
+  
+      }
+      .eduborder,.edu{
+          float:center;
+ 
+          display: flex;
+          align-items: center;
+          justify-content: center;
+  }
+  .hedu{
+    font-size: 3rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+  }
+  #sedu{
+    margin-top: 300px;
+  }
+  .thb{
+    font-size: 20px;
+  }
+  .ths{
+    font-size: 15px;
+  }
+  .skill {
+  margin-top: 30px;
+  font-size: 17px;
+}
+
+.skill span {
+  float: right;
+}
+
+.skill div {
+  width: 100%;
+  float: left;
+  margin-top: 5px;
+  background: #e7e7e7;
+  border-radius: 10px;
+}
+
+.skill div span {
+  background: #17b8e0;
+  height: 5px;
+  float: left;
+}
+
+
+.heading-text {
+  width: 100%;
+  float: left;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #121213;
+    margin-top: 250px;
+}
+#container {
+  width: 1100px;
+  margin: 0px auto;
+  display: table;
+}
+.bootom{
+    margin-bottom: 100px;
+}
+.projects, .tap{
+
+    display:flex;
+    width:100%;
+    float:flex;
+    font-size: 35px;
+    text-align: center;
+    
+    color: black;
+
+
+margin: 0;
+padding: 110px 0px 110px 0px;
+text-decoration:none;
+
+justify-content:center;
+ }
+.pro-bro{
+    border: 5px solid rgb(10, 10, 10);
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: rgb(118, 236, 226);
+    box-shadow: 10px 10px gray;
+}
+.tap,
+.thp,
+.tdp{
+    border:1px solid black;
+}
+
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height:500px;
+    display: flex;
+    box-shadow: -10px 5px 20px rgba(15, 172, 31, 0.1);
+    margin-left: 150px;
+   
+    
+  }
+  
+  #center #main-center{
+    width: 40%;
+  
+    padding: 30px 25px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: rgb(228, 235, 236);
+    box-shadow: 8px 0px 38px -20px rgb(126, 14, 14);
+  }
+  
+  #center #main-center .conimg{
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width:200px;
+    height:200px;
+  }
+  
+  #center #main-center .con{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+     
+  }
+  
+  #center #main-center {
+    font-size: 15px;
+  
+  }
+  
+  #center #main-center{
+    width: 50%;
+    background: hsl(300, 6%, 3%);
+    padding: 30px 25px;
+   border-radius: 50px;
+   
+  }
+
+
+.con{
+    color: #631497;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+#center{
+    margin-top: 3500px;
+   
+}
+#main-center{
+    margin-bottom: 50px;
+}
+
+.conme{
+    margin-left: 10px;
+}
+.anm{
+    margin: 5px;
+}
+.maincenter{
+  border-color: #25b79f;
+}
+
+li{
+  margin-right: 50px;
+  list-style-type: none;
+  
+}
